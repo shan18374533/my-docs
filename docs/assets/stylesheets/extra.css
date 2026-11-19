@@ -1,0 +1,24 @@
+:root {
+  --md-primary-fg-color: #344f7b;
+  --md-primary-fg-color--light: #5d79a0;
+  --md-primary-fg-color--dark: #213c63;
+  --md-accent-fg-color: #16877e;
+}
+.md-typeset h1 {
+  font-weight: 750;
+  letter-spacing: -0.035em;
+}
+.md-typeset h2 {
+  margin-top: 2rem;
+  font-weight: 650;
+}
+.md-typeset table:not([class]) {
+  border-radius: 8px;
+  overflow: hidden;
+}
+.md-typeset blockquote {
+  border-left-color: #16877e;
+}
+.md-typeset code {
+  border-radius: 4px;
+}

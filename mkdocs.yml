@@ -1,0 +1,31 @@
+site_name: Markdown 到 GitHub Pages · 自动部署实践
+site_description: 使用 MkDocs、GitHub Actions 和 GitHub Pages 构建个人技术文档网站
+site_author: shan18374533
+site_url: https://shan18374533.github.io/my-docs/
+repo_url: https://github.com/shan18374533/my-docs
+repo_name: shan18374533/my-docs
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.sections
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+markdown_extensions:
+  - tables
+  - fenced_code
+
+nav:
+  - 首页: index.md
+  - 关于项目: about.md
+  - 使用指南: guide.md
+  - API 参考: api.md
